@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+}
+main {
+  padding: 20px;
+}
+h1 {
+  color: black;
+  font-family: "Playfair Display", Georgia, serif;
+}
+.slick-dots.slick-dots-bottom{
+  padding: 20px;
+  flex-direction: column;
+  bottom: -50px;
+}
+.ant-layout-sider.ant-layout-sider-collapsed {
+  width: 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+}
+.ant-layout-sider-children{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow-y: auto;
+}
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-active:hover,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected::after,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-item-selected::after,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-selected::after,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-submenu-selected::after {
+    border-bottom-width: 0 !important; /* Override and set border-bottom-width to 0 */
+    border-bottom-color: transparent !important; /* Remove border-bottom */
+}
+.ant-carousel .slick-dots li{
+  height: 10px !important;
+  width: 16px !important;
+  margin: 2px;
+}
+.ant-carousel .slick-dots li button{
+  width: 50% !important;
+  height: 9px !important;
+  border-radius: 10px !important;
+
+}
